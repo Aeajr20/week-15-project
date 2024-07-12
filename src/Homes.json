@@ -1,0 +1,91 @@
+[
+  {
+    "houses": [
+      { "id": 1, "type": "Modern" },
+      { "id": 2, "type": "Rustic" },
+      { "id": 3, "type": "Futuristic" },
+      { "id": 4, "type": "Victorian" }
+    ],
+    "rooms": [
+      { "id": 1, "name": "Primary Bedroom with Spa Shower/Walk-in Closet", "description": "A spacious primary bedroom featuring a luxurious spa shower and a walk-in closet." },
+      { "id": 2, "name": "Primary Bedroom with Patio/Bathroom", "description": "A primary bedroom with an attached patio and bathroom." },
+      { "id": 3, "name": "Bedroom", "description": "A modern bedroom with minimalist design." },
+      { "id": 8, "name": "Dining Room", "description": "A dining room with contemporary furnishings." },
+      { "id": 9, "name": "Office Room", "description": "A modern office room with the latest technology." },
+      { "id": 10, "name": "Primary Bedroom with Spa Shower/Walk-in Closet", "description": "A cozy primary bedroom with rustic charm, featuring a spa shower and walk-in closet." },
+      { "id": 11, "name": "Primary Bedroom with Patio/Bathroom", "description": "A primary bedroom with an attached patio and rustic bathroom." },
+      { "id": 12, "name": "Bedroom", "description": "A rustic bedroom with a warm atmosphere." },
+      { "id": 17, "name": "Dining Room", "description": "A rustic dining room perfect for family meals." },
+      { "id": 18, "name": "Office Room", "description": "A rustic office room with wooden furnishings." },
+      { "id": 19, "name": "Primary Bedroom with Spa Shower/Walk-in Closet", "description": "A futuristic primary bedroom with a spa shower and walk-in closet." },
+      { "id": 20, "name": "Primary Bedroom with Patio/Bathroom", "description": "A primary bedroom with an attached patio and bathroom." },
+      { "id": 21, "name": "Bedroom", "description": "A futuristic bedroom with advanced features." },
+      { "id": 26, "name": "Dining Room", "description": "A dining room with futuristic furnishings." },
+      { "id": 27, "name": "Office Room", "description": "A futuristic office room with advanced technology." },
+      { "id": 28, "name": "Primary Bedroom with Spa Shower/Walk-in Closet", "description": "A luxurious primary bedroom with Victorian decor, featuring a spa shower and walk-in closet." },
+      { "id": 29, "name": "Primary Bedroom with Patio/Bathroom", "description": "A primary bedroom with an attached patio and Victorian bathroom." },
+      { "id": 30, "name": "Bedroom", "description": "A Victorian bedroom with vintage charm." },
+      { "id": 35, "name": "Dining Room", "description": "A Victorian dining room perfect for elegant meals." },
+      { "id": 36, "name": "Office Room", "description": "A Victorian office room with antique furnishings." }
+    ],
+    "bathrooms": [
+      { "id": 4, "name": "Full Bathroom", "description": "A full bathroom with modern fixtures." },
+      { "id": 13, "name": "Full Bathroom", "description": "A full bathroom with rustic fixtures." },
+      { "id": 22, "name": "Full Bathroom", "description": "A full bathroom with futuristic fixtures." },
+      { "id": 31, "name": "Full Bathroom", "description": "A full bathroom with Victorian fixtures." }
+    ],
+    "kitchens": [
+      { "id": 5, "name": "Closed Kitchen", "description": "A modern closed kitchen with sleek appliances." },
+      { "id": 6, "name": "Open Kitchen", "description": "An open kitchen with a spacious layout." },
+      { "id": 7, "name": "Island Kitchen", "description": "A kitchen with a central island and modern amenities." },
+      { "id": 14, "name": "Closed Kitchen", "description": "A cozy closed kitchen with rustic charm." },
+      { "id": 15, "name": "Open Kitchen", "description": "An open kitchen with a rustic touch." },
+      { "id": 16, "name": "Island Kitchen", "description": "A kitchen with a central island and rustic decor." },
+      { "id": 23, "name": "Closed Kitchen", "description": "A modern closed kitchen with futuristic appliances." },
+      { "id": 24, "name": "Open Kitchen", "description": "An open kitchen with a futuristic layout." },
+      { "id": 25, "name": "Island Kitchen", "description": "A kitchen with a central island and futuristic amenities." },
+      { "id": 32, "name": "Closed Kitchen", "description": "A cozy closed kitchen with Victorian charm." },
+      { "id": 33, "name": "Open Kitchen", "description": "An open kitchen with Victorian touches." },
+      { "id": 34, "name": "Island Kitchen", "description": "A kitchen with a central island and Victorian decor." }
+    ],
+    "yards": [
+      { "id": 1, "type": "Front Patio", "description": "A welcoming front patio with modern decor." },
+      { "id": 2, "type": "Open Backyard", "description": "An open backyard with ample space for activities." },
+      { "id": 3, "type": "Backyard with Pool and Jacuzzi", "description": "A luxurious backyard featuring a pool and jacuzzi." },
+      { "id": 4, "type": "Garage", "description": "A spacious garage with modern design." },
+      { "id": 5, "type": "Front Patio", "description": "A welcoming front patio with rustic decor." },
+      { "id": 6, "type": "Open Backyard", "description": "An open backyard with a rustic ambiance." },
+      { "id": 7, "type": "Backyard with Pool and Jacuzzi", "description": "A backyard featuring a pool and jacuzzi with rustic styling." },
+      { "id": 8, "type": "Garage", "description": "A garage with rustic elements." },
+      { "id": 9, "type": "Front Patio", "description": "A welcoming front patio with futuristic decor." },
+      { "id": 10, "type": "Open Backyard", "description": "An open backyard with futuristic design." },
+      { "id": 11, "type": "Backyard with Pool and Jacuzzi", "description": "A backyard featuring a pool and jacuzzi with futuristic styling." },
+      { "id": 12, "type": "Garage", "description": "A spacious garage with futuristic design." },
+      { "id": 13, "type": "Front Patio", "description": "A welcoming front patio with Victorian decor." },
+      { "id": 14, "type": "Open Backyard", "description": "An open backyard with Victorian ambiance." },
+      { "id": 15, "type": "Backyard with Pool and Jacuzzi", "description": "A backyard featuring a pool and jacuzzi with Victorian styling." },
+      { "id": 16, "type": "Garage", "description": "A garage with Victorian elements." }
+    ]
+  },
+  {
+    "Houses": {},
+    "Rooms": {},
+    "Yard": {},
+    "id": "1",
+    "type": "",
+    "rooms": []
+  },
+  {
+    "Houses": {},
+    "Rooms": {},
+    "Yard": {},
+    "id": "2",
+    "type": "",
+    "rooms": [
+      { "id": 1, "name": "Room 1" },
+      { "id": 2, "name": "Room 2" },
+      { "id": 3, "name": "Room 3" },
+      { "id": 4, "name": "Room 4" }
+    ]
+  }
+]
