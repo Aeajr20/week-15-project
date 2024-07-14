@@ -1,16 +1,18 @@
-
-
-
-
+// Import necessary modules from their respective packages
 import React, { useState, useEffect } from 'react';
-import HouseDetails from './HouseDetails';
-import HouseForm from './HouseForm';
 import axios from 'axios';
 
+// Import the HouseDetails and HouseForm components
+import HouseDetails from './HouseDetails';
+import HouseForm from './HouseForm';
+
+// Define the HouseList component
 const HouseList = () => {
+  // State variables for the houses data and the selected house
   const [houses, setHouses] = useState([]);
   const [selectedHouse, setSelectedHouse] = useState(null);
 
+  // Fetch houses from the API when the component mounts
   useEffect(() => {
     const fetchHouses = async () => {
       try {
@@ -24,10 +26,12 @@ const HouseList = () => {
     fetchHouses();
   }, []);
 
+  // Function to handle house edit
   const handleEdit = (house) => {
     setSelectedHouse(house);
   };
 
+  // Function to handle house delete
   const handleDelete = async (houseId) => {
     try {
       await axios.delete(`https://668f69b580b313ba09180311.mockapi.io/Houses/api/v2/HouseApi/${houseId}`);
@@ -38,10 +42,12 @@ const HouseList = () => {
     }
   };
 
+  // Function to handle house creation
   const handleCreate = () => {
     setSelectedHouse({}); // Initialize an empty object for new house creation
   };
 
+  // Render the component
   return (
     <div className="mt-4">
       <h2 className="mb-3">Houses</h2>
@@ -66,4 +72,5 @@ const HouseList = () => {
   );
 };
 
+// Export the HouseList component, so it can be imported and used in other files.
 export default HouseList;
